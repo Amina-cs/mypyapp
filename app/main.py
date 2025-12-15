@@ -3,7 +3,7 @@ app=Flask(__name__)
 
 @app.route('/')
 def hello():
-    return 'Hello, to learning pipeline ci/cd '
+    return 'Hello, World!'
 
 if __name__=='__main__':
     app.run(debug=True)
